@@ -669,9 +669,9 @@ app.use(session({
 app.use(passport.initialize());
 app.use(passport.session());
 passport.use(new GoogleStrategy({
-    clientID: '352248314466-kmvqd8rtf3gt5acpk8afmt1m6rmco340.apps.googleusercontent.com',
-    clientSecret: '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',
-    callbackURL: 'http://localhost:3000/auth/google/callback'
+    clientID: '742142341309-82rsnnfpko1kelvjga0tq4lpuulqm4rd.apps.googleusercontent.com',
+    clientSecret: ' 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',
+    callbackURL: 'https://cybercyld.com/auth/google/callback'
 }, 
  (accessToken, refreshToken, profile, done) => {
     console.log(accessToken);
